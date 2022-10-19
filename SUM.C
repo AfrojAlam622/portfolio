@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,sum;
+clrscr();
+printf("enter the velue of a");
+scanf("%d",&a);
+printf("enter the velue of b");
+scanf("%d",&b);
+sum = a+b;
+printf("sum is =%d", sum);
+getch();
+}

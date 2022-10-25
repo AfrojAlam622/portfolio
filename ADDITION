@@ -1,0 +1,23 @@
+/*write a progra to imlement,sub,mul,div,modulous of two numbers*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,add,sub,div,mod,mul;
+clrscr();
+printf("enter value of a");
+scanf("%d",&a);
+printf("enter value of b");
+scanf("%d",&b);
+add=a+b;
+sub=a-b;
+mul=a*b;
+div=a/b;
+mod=a%b;
+printf("\n addition is=%d",add);
+printf("\n substraction is=%d",sub);
+printf("\n multiplycation is=%d",mul);
+printf("\n div is=%d",div);
+printf("\n mod is=%d",mod);
+getch();
+}

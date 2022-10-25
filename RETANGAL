@@ -1,0 +1,11 @@
+/*write a program calculate the are of rectangle*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int width=5, height=10, area;
+clrscr();
+area=width*height;
+printf("area of rectangle is=%d",area);
+getch();
+}

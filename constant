@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a=10;
+float b=5.5,sum;
+char str[10]="india";
+clrscr();
+sum=a+b;
+printf("sum is=%f",sum);
+printf("string is=%s",str);
+getch();
+}

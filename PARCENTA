@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float percentage;
+int totalmarks=1200;
+int scored=1122;
+clrscr();
+percentage=((float) scored/totalmarks*100);
+printf("percentage is=%f",percentage);
+getch();
+}

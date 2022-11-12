@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int integer=26;
+float floating=39.32;
+char character='A';
+clrscr();
+printf("\n %d",integer);
+printf("\n %f",floating);
+printf("\n %c",character);
+getch();
+}

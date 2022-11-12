@@ -1,0 +1,21 @@
+/*write a program find out total and average of given for number*/
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int c,it,hv,math,total,average;
+clrscr();
+printf("enter marks of c");
+scanf("%d",&c);
+printf("enter marks of it");
+scanf("%d",&it);
+printf("enter marks of hv");
+scanf("%d",&hv);
+printf("enter marks of math");
+scanf("%d",&math);
+total=c+it+hv+math;
+average=total/4;
+printf("total is =%d",total);
+printf("average is =%d",average);
+getch();
+}

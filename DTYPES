@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b;
+long x,y;
+unsigned int i;
+unsigned long int j;
+clrscr();
+scanf("%d%d%ld%ld",&a,&b,&x,&y);
+printf("\n %d%d%ld%ld",a,b,x,y);
+scanf("%u%lu",&i,&j);
+printf("\n %u%lu",i,j);
+getch();
+}

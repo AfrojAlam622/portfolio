@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+float f=64.64567890;
+double g=99.123456789;
+long double h=11.0123456789;
+clrscr();
+printf("\n%f\n%lf\n%Lf",f,g,h);
+getch();
+}

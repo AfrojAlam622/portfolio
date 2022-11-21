@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+char ch;
+unsigned char u;
+ch='+';
+u='A';
+clrscr();
+printf("ch=%c and its ASCII value=%d",ch,ch);
+printf("\nu=%c and its ASCII value=%d",u,u);
+getch();
+}

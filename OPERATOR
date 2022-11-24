@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,sum,sub,mul,div,mod;
+clrscr();
+printf("enter the value of a&b");
+scanf("%d%d",&a,b);
+sum=a+b;
+sub=a-b;
+mul=a*b;
+div=a/b;
+mod=a%b;
+printf("\n sum is=%d",sum);
+printf("\n sub is=%d",sub);
+printf("\n mul is=%d",mul);
+printf("\n div is=%d",div);
+printf("\n mod is=%d",mod);
+getch();
+}

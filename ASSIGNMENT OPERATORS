@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a=7,b;
+clrscr();
+b=a; //b is 7
+printf("b=%d\n",b);
+b+=a;  //b is 14
+printf("b=%d\n",b);
+b-=a;  //b is 7
+printf("b=%d\n",b);
+b*=a;  //b is 49
+printf("b=%d\n",b);
+b/=a;  //b is 7
+printf("b=%d\n",b);
+b%=a;  //b=0
+printf("b=%d\n",b);
+getch();
+}

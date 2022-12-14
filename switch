@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int e=45,h=66,m=44,s=82,c=84;
+    int sum,perc,check;
+    clrscr();
+    sum=e+h+m+s+c;
+    perc=sum*100/500;
+    //1)add(2) percentage
+    scanf("%d",&check);
+    switch (check)
+      {
+	 case 1:
+	       printf("total marks=%d",sum);
+	 break;
+	 case 2:
+	       printf("your percentage=%d",perc);
+	 break;
+	 default:
+	       printf("wrong input");
+	 }
+	 getch();
+}
